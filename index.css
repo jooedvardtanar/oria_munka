@@ -1,0 +1,13 @@
+table {
+  width: 600px;
+  /* border-collapse: separate */
+  border-collapse: collapse;
+}
+
+tr,
+td {
+    border: 1px solid black;
+}
+
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: red}
